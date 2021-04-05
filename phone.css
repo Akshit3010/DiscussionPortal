@@ -1,0 +1,103 @@
+                @media only screen and (max-width: 1250px) {
+                    .box .square:nth-child(3) {
+                        bottom: 50px;
+                        right: -400px;
+                    }
+                    .box .circle:nth-child(9) {
+                        top: 10px;
+                        right: -400px;
+                    }
+                }
+                
+                @media only screen and (min-width: 768px) and (max-width:1024px) {
+                    #search {
+                        padding: 10px 4px;
+                    }
+                    .container .left-content {
+                        padding-right: 1px;
+                    }
+                }
+                
+                @media only screen and (min-width: 360px) and (max-width:640px) {
+                    .container .left-content {
+                        display: none;
+                        width: 100%;
+                    }
+                    #head {
+                        height: auto;
+                    }
+                    #head h1 {
+                        font-size: 2.5rem;
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+                        padding-right: 4px;
+                        padding-left: 8px;
+                    }
+                    .container .right-content {
+                        min-height: 90vh;
+                        width: auto;
+                        padding-left: 3rem;
+                        padding-right: 1rem;
+                    }
+                    .container .right-content .text-primary {
+                        font-size: 2.3rem;
+                    }
+                    .box .circle:nth-child(9) {
+                        top: 10px;
+                        right: -300px;
+                    }
+                    .box .square:nth-child(3) {
+                        bottom: 50px;
+                        right: -300px;
+                    }
+                    .btn2 {
+                        left: 70%;
+                    }
+                }
+                
+                @media only screen and (min-width: 280px) and (max-width:353px) {
+                    .container .left-content {
+                        display: none;
+                        width: 100%;
+                    }
+                    #head {
+                        height: auto;
+                    }
+                    #head h1 {
+                        font-size: 1.9rem;
+                        padding-top: 6px;
+                        padding-bottom: 6px;
+                        padding-right: 4px;
+                        padding-left: 6px;
+                    }
+                    .container .right-content {
+                        min-height: 90vh;
+                        width: auto;
+                        padding-left: 3rem;
+                        padding-right: 1rem;
+                    }
+                    .container .right-content .text-primary {
+                        font-size: 2rem;
+                    }
+                    .box .circle:nth-child(9) {
+                        top: 10px;
+                        right: -250px;
+                        height: 200px;
+                        width: 200px;
+                    }
+                    .box .square:nth-child(3) {
+                        bottom: 50px;
+                        right: -240px;
+                    }
+                    .box .square:nth-child(6) {
+                        bottom: 90px;
+                        right: -240px;
+                    }
+                    .box .square:nth-child(5) {
+                        top: -80px;
+                        right: -140px;
+                    }
+                    .btn2 {
+                        left: 70%;
+                    }
+                }
